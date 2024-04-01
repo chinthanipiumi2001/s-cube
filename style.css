@@ -19,9 +19,22 @@ body{
 }
 
 #box-area{
-    position: relative;
+    position: absolute;
+    transform-style: preserve-3d;
+}
+
+.box{
+    position: absolute;
+    top: 350px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
 }
 
 #box-front{
-    position: absolute;
+    transform: translate3d(-100px,-100px,100px);
+}
+
+#box-front{
+    transform: translate3d(-100px,-100px,100px);
 }
