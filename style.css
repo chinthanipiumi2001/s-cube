@@ -33,6 +33,15 @@ body{
     border: 2px solid white;
 }
 
+@keyframes rotate {
+    0%{
+        transform: rotate3d(0,0,0,0);
+    }
+    100%{
+        transform: rotate3d(1,1,0,360deg);
+    }
+}
+
 #box-front{
     transform: translate3d(-100px,-100px,100px);
 }
