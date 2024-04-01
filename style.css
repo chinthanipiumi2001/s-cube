@@ -17,3 +17,11 @@ body{
     left: 50%;
     right: 50%;
 }
+
+#box-area{
+    position: relative;
+}
+
+#box-front{
+    position: absolute;
+}
